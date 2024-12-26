@@ -1,0 +1,15 @@
+[project]
+name = "logo-generator-comfyui"
+description = "This custom node allows you to generate logo images using Google Fonts."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["﻿Pillow", "requests", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/cherninlab/logo-generator-comfyui"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "logo-generator-comfyui"
+Icon = ""
